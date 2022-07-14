@@ -241,11 +241,34 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         
-                        <!-- Table part   -->
+                        
 
+                        <h2 class="title-1 m-b-25">Treasury Balance</h2>
+<!-- Table part   -->
+                     
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="overview-item overview-item--c1">
+                                    <div class="overview__inner">
+                                        <div class="overview-box clearfix">
+                                            <div class="icon">
+                                                <!-- <i class="zmdi zmdi-account-o"></i>  -->
+                                                <span class="iconify" data-icon="fa6-solid:money-bill-transfer"></span>
+                                            </div>
+                                            <div class="text">
+                                                <h2>10368</h2>
+                                                <span> Total Asset </span>
+                                            </div>
+                                        </div>
+                                        <div class="overview-chart">
+                                            <canvas id="widgetChart1"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                          </div>
+                          
                         <div class="row">
                             <div class="col-lg-12">
-                                <h2 class="title-1 m-b-25">Treasury Balance</h2>
+                                
                                 <div class="table-responsive table--no-card m-b-40">
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
@@ -362,6 +385,32 @@
                                     <div class="au-card-inner">
                                         <h3 class="title-2 m-b-40">Buybacklog Chart</h3>
                                         <canvas id="sales-chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="au-card chart-percent-card">
+                                <div class="au-card-inner">
+                                    <h3 class="title-2 tm-b-5">char by %</h3>
+                                    <div class="row no-gutters">
+                                        <div class="col-xl-6">
+                                            <div class="chart-note-wrap">
+                                                <div class="chart-note mr-0 d-block">
+                                                    <span class="dot dot--blue"></span>
+                                                    <span>products</span>
+                                                </div>
+                                                <div class="chart-note mr-0 d-block">
+                                                    <span class="dot dot--red"></span>
+                                                    <span>services</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="percent-chart">
+                                                <canvas id="percent-chart"></canvas>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
