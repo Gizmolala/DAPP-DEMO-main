@@ -43,7 +43,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CheemsX" />                            
+                            <img src="images/icon/logo.png" alt="CheemsX" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -58,10 +58,9 @@
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                           
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>                           
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
@@ -108,7 +107,7 @@
                                 <li>
                                     <a href="manage.html">Manage </a>
                                 </li>
-                                <li class="active">
+                                <li>
                                     <a href="borrowRedeem.html">Borrow And Redeeem</a>
                                 </li>
                               
@@ -137,15 +136,15 @@
                     <ul class="list-unstyled navbar__list">
                         <li>
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-table"></i>Dashboard</a>
-                           
+                                <i class="fas fa-table"></i>Dashboard
+                            </a>                            
                         </li>
-                        <li>
+                        <li >
                             <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
                         </li>
-                        <li >
+                        <li>
                             <a href="BuybackLog.html">
                                 <i class="fas fa-table"></i>BuyBack Logs</a>
                         </li>
@@ -174,12 +173,11 @@
                                 <li>
                                     <a href="NFTNode.html"> Node </a>
                                 </li>
-                                
                             </ul>
-                            <li>
-                                <a href="bonding.html">
-                                    <i class="fas fa-calendar-alt"></i>Bonding</a>
-                            </li>
+                        </li>
+                        <li>
+                            <a href="bonding.html">
+                                <i class="fas fa-calendar-alt"></i>Bonding</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
@@ -194,12 +192,11 @@
                                 <li class="active">
                                     <a href="borrowRedeem.html">Borrow And Redeeem</a>
                                 </li>
-                              
                             </ul>
-                            <li>
-                                <a href="nftmarket.html">
-                                    <i class="fas fa-calendar-alt"></i>NFT Market</a>
-                            </li>
+                        </li>
+                        <li>
+                            <a href="nftmarket.html">
+                                <i class="fas fa-calendar-alt"></i>NFT Market</a>
                         </li>
                         <li>
                             <a href="#">
@@ -235,8 +232,7 @@
                                         </div>
                                         <div class="content">
                                             <button class="au-btn au-btn-icon au-btn--blue"> Connect Wallet</button>
-                                        </div>
-                                      
+                                        </div>                                       
                                     </div>
                                 </div>
                             </div>
@@ -250,176 +246,155 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
+                        
+                        
+
+                        <h2 class="title-1 m-b-25">Borrow & Redeemption, Terms & Condition</h2>
+<!-- Table part   -->
+                     
+                           
+                          
                         <div class="row">
-                            <div class="col-md-12">                               
-                                <div class="card-header">
-                                    <strong> <h2> Borrow and Redeeem NFT</h2> </strong>                                        
+                            <div class="col-lg-12">
+                                
+                                <div class="table-responsive table--no-card m-b-40">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-centar" align="centar"> Terms</th>
+                                                <th class="text-centar" align="centar"> Value</th>                                                
+                                                <th class="text-centar" align="centar"> Explanation</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-centar">Hold Time</td>
+                                                <td class="text-centar">30</td>
+                                                <td class="text-centar">e.g. borrower can borrow money using their NFT as a 
+                                                    collateral with a default duration of 30 days</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">Grace Time</td>
+                                                <td class="text-centar">10</td>
+                                                <td class="text-centar">If borrower failed to reedem their NFT 10 day will be the grace period, during which there will be a additional fee to redeem,</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">Maximum amount you can borrow</td>
+                                                <td class="text-centar">60</td>
+                                                <td class="text-centar">60% of NFT fraction you can borrow</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">Discount for Other User [after grace perod]</td>
+                                                <td class="text-centar">10</td>
+                                                <td class="text-centar">If original NFT owner failed to redeem after hold time and grace period is over then other user can claim the original NFT with 10% discount</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">RedeemFee</td>
+                                                <td class="text-centar">10</td>
+                                                <td class="text-centar">When the original user redeem there NFT there is 10% fee</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">GraceFee</td>
+                                                <td class="text-centar">10</td>
+                                                <td class="text-centar">If the original NFT user tries to redeem during the grace period there is additional 10% fee</td>
+                                               
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                        </div>
-                        <br>
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-header">
-                                    <strong>Dropdowns</strong> Groups
-                                </div>
-                                <div class="card-body card-block">
-                                    <form class="form-horizontal">
-                                        <div class="row form-group">
-                                            <div class="col col-md-12">
-                                                <div class="input-group">
-                                                    <div class="input-group-btn">
-                                                        <div class="btn-group">
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-primary">Dropdown</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Something else here</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Separated link</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <input type="text" id="input1-group3" name="input1-group3" placeholder="Username" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col col-md-12">
-                                                <div class="input-group">
-                                                    <input type="email" id="input2-group3" name="input2-group3" placeholder="Email" class="form-control">
-                                                    <div class="input-group-btn">
-                                                        <div class="btn-group">
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-primary">Dropdown</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Something else here</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Separated link</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col col-md-12">
-                                                <div class="input-group">
-                                                    <div class="input-group-btn">
-                                                        <div class="btn-group">
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-primary">Action</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Something else here</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Separated link</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <input type="text" id="input3-group3" name="input3-group3" placeholder=".." class="form-control">
-                                                    <div class="input-group-btn">
-                                                        <div class="btn-group">
-                                                            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-primary">Dropdown</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Another Action</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Something else here</button>
-                                                                <div tabindex="-1" class="dropdown-divider"></div>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Separated link</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="card-footer">
-                                    <button type="submit" class="btn btn-success btn-sm">
-                                        <i class="fa fa-dot-circle-o"></i> Submit
-                                    </button>
-                                    <button type="reset" class="btn btn-danger btn-sm">
-                                        <i class="fa fa-ban"></i> Reset
-                                    </button>
-                                </div>
-                            </div>
+                            
                         </div>
                         
-                       <div class="col-lg-12 row">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">NFT 1</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
+                        <div class="col col-md-12">
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <div class="btn-group">
+                                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-primary">Dropdown</button>
+                                        <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
+                                            <button type="button" tabindex="0" class="dropdown-item">Borrow</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Redeem</button>
+                                            
                                         </div>
-                                        <hr>                                   
-                                    </div>
-                                    <div class="card-footer btn btn-lg btn-info btn-block">
-                                        <strong class="card-title mb-3 green centar">Buy Now</strong>
                                     </div>
                                 </div>
+                                <input type="text" id="input1-group3" name="input1-group3" placeholder="ID" class="form-control">
                             </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">NFT 2</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
+        <br>
+        <h2 class="title-1 m-b-25">Your NFT</h2>
+                            <div class="col-lg-12 row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="mx-auto d-block">
+                                                <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
+                                                <h5 class="text-sm-center mt-2 mb-1">NFT 1</h5>
+                                                
+                                            </div>
+                                            <hr>                                   
                                         </div>
-                                        <hr>                                   
-                                    </div>
-                                    <div class="card-footer btn btn-lg btn-info btn-block">
-                                        <strong class="card-title mb-3 green centar">Buy Now</strong>
+                                        <div class="card-footer btn btn-lg btn-info btn-block">
+                                            <strong class="card-title mb-4 ">Buy Now</strong>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">NFT 3</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="mx-auto d-block">
+                                                <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
+                                                <h5 class="text-sm-center mt-2 mb-1">NFT 2</h5>
+                                                
+                                            </div>
+                                            <hr>                                   
                                         </div>
-                                        <hr>                                   
-                                    </div>
-                                    <div class="card-footer btn btn-lg btn-info btn-block">
-                                        <strong class="card-title mb-3 green centar">Buy Now</strong>
+                                        <div class="card-footer btn btn-lg btn-info btn-block">
+                                            <strong class="card-title mb-3 green centar">Buy Now</strong>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                            <h5 class="text-sm-center mt-2 mb-1">NFT 4</h5>
-                                            <div class="location text-sm-center">
-                                                <i class="fa fa-map-marker"></i> California, United States</div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="mx-auto d-block">
+                                                <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
+                                                <h5 class="text-sm-center mt-2 mb-1">NFT 3</h5>
+                                                
+                                            </div>
+                                            <hr>                                   
                                         </div>
-                                        <hr>                                   
-                                    </div>
-                                    <div class="card-footer btn btn-lg btn-info btn-block">
-                                        <strong class="card-title mb-3 green centar">Buy Now</strong>
+                                        <div class="card-footer btn btn-lg btn-info btn-block">
+                                            <strong class="card-title mb-4 green centar">Buy Now</strong>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                       </div>
-
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="mx-auto d-block">
+                                                <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
+                                                <h5 class="text-sm-center mt-2 mb-1">NFT 3</h5>
+                                                
+                                            </div>
+                                            <hr>                                   
+                                        </div>
+                                        <div class="card-footer btn btn-lg btn-info btn-block">
+                                            <strong class="card-title mb-4 green centar">Buy Now</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                              
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
                                     <p>Copyright © 2022 <a href="https://cheemsx.org">CheemsX. </a> All rights reserved.</p>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -459,3 +434,4 @@
 
 </html>
 <!-- end document-->
+<!-- end document 2-->
